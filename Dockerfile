@@ -1,6 +1,6 @@
 FROM tomcat
 MAINTAINER guru guru@guru.com
-WORKDIR /ust/local/tomcat/webapps
+WORKDIR /usr/local/tomcat/webapps
 RUN mkdir hello
 WORKDIR hello
 COPY myapp .
